@@ -92,7 +92,7 @@ main{
     margin: auto;
 }
 
-article{
+article > :not(.imagem){
     margin: 10px;
 }
 
@@ -132,8 +132,8 @@ main .imagem{
     max-width: 100%;
     height: auto;
     display: block;
+    margin: 0;
 }
-
 
 aside{
    
