@@ -139,25 +139,25 @@ aside{
    
     max-height: 700px;
     margin: auto;
+    margin-bottom: 40px;
     background-color: rgb(255, 255, 255);
     border: 2px solid black;
     border-radius: 10px 10px 0 0;
-    overflow-y: auto;
+   
     
 }
 
 
 aside h3{
     padding: 5px;
+    margin-bottom: 15px;
     font-family: var(--font-panda);
     font-weight: normal;
     font-size: 1.5em;
     background-color: black;
     color: white;
     border-radius:0;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+    
 }
 
 aside > ol{
@@ -166,7 +166,11 @@ aside > ol{
 
 aside > ol > li{
     padding: 10px;
-    line-height: 1.5;
+   
+}
+
+aside > p{
+    padding: 10px;
 }
 
 
