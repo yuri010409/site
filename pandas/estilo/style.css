@@ -121,11 +121,8 @@ article p{
 }
 
 main .imagem{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 20px 0px;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 
