@@ -92,7 +92,7 @@ main{
     margin: auto;
 }
 
-article > :not(.imagem){
+article{
     margin: 10px;
 }
 
@@ -141,15 +141,15 @@ aside{
     margin: auto;
     margin: 30px;
     background-color: rgb(255, 255, 255);
-    border: 2px solid black;
-    border-radius: 10px 10px 0 0;
+    border: 3px solid black;
+    border-radius: 10px;
    
     
 }
 
 
 aside h3{
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 15px;
     font-family: var(--font-panda);
     font-weight: normal;
